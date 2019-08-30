@@ -1,0 +1,7 @@
+use glicose-controle
+
+// Criar Collection ("tabela") para armezar os arquivos
+db.createCollection("glicose")
+
+// Consultar arquivos salvos
+db.glicose.find()
